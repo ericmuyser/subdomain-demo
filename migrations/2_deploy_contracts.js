@@ -1,8 +1,8 @@
-var SimpleStorage = artifacts.require("./SimpleStorage.sol");
-var ENS = artifacts.require('@ensdomains/ens/ENSRegistry.sol');
-var PublicResolver = artifacts.require('@ensdomains/ens/PublicResolver.sol');
-var ReverseRegistrar = artifacts.require('@ensdomains/ens/ReverseRegistrar.sol');
-var FIFSRegistrar = artifacts.require('@ensdomains/ens/FIFSRegistrar.sol');
+var SimpleStorage = artifacts.require("./SimpleStorage");
+var ENS = artifacts.require('@ensdomains/ens/ENSRegistry');
+var PublicResolver = artifacts.require('@ensdomains/ens/PublicResolver');
+var ReverseRegistrar = artifacts.require('@ensdomains/ens/ReverseRegistrar');
+var FIFSRegistrar = artifacts.require('@ensdomains/ens/FIFSRegistrar');
 
 var namehash = require('eth-ens-namehash');
 
